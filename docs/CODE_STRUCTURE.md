@@ -69,7 +69,7 @@ ElMahrosa-Pi-Smart-City/
 │   │   │   │   └── analyticsService.test.ts
 │   │   │   ├── Dockerfile
 │   │   │   ├── package.json
-│   │   │   ├── tsconfig.json
+│   │   │   ├── config.json
 │   │   │   └── README.md
 │   │   ├── web3-service/                     # New Web3 service for blockchain interactions
 │   │   │   ├── src/
@@ -257,7 +257,7 @@ ElMahrosa-Pi-Smart-City/
 ├── security/
 │   ├── audits/
 │   │   └── audit-report.md
-│   ├── pen-tests/
+│   │   ├── pen-tests/
 │   │   └── pentest-report.md
 │   ├── policies/
 │   │   └── security-policy.md
