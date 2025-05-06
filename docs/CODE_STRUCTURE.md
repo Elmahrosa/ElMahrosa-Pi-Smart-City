@@ -57,21 +57,21 @@ ElMahrosa-Pi-Smart-City/
 │   │   │   ├── package.json
 │   │   │   ├── tsconfig.json
 │   │   │   └── README.md
-│   │   └── data-analytics-service/
-│   │       ├── src/
-│   │       │   ├── models/
-│   │       │   │   └── analyticsModel.ts
-│   │       │   ├── services/
-│   │       │   │   └── analyticsService.ts
-│   │       │   └── utils/
-│   │       │       └── dataProcessor.ts
-│   │       ├── tests/
-│   │       │   └── analyticsService.test.ts
-│   │       ├── Dockerfile
-│   │       ├── package.json
-│   │       ├── tsconfig.json
-│   │       └── README.md
-│   ├── web3-service/                     # New Web3 service for blockchain interactions
+│   │   ├── data-analytics-service/
+│   │   │   ├── src/
+│   │   │   │   ├── models/
+│   │   │   │   │   └── analyticsModel.ts
+│   │   │   │   ├── services/
+│   │   │   │   │   └── analyticsService.ts
+│   │   │   │   └── utils/
+│   │   │   │       └── dataProcessor.ts
+│   │   │   ├── tests/
+│   │   │   │   └── analyticsService.test.ts
+│   │   │   ├── Dockerfile
+│   │   │   ├── package.json
+│   │   │   ├ │   │   ├── tsconfig.json
+│   │   │   └── README.md
+│   │   ├── web3-service/                     # New Web3 service for blockchain interactions
 │   │   │   ├── src/
 │   │   │   │   ├── controllers/
 │   │   │   │   │   └── web3Controller.ts
@@ -152,9 +152,9 @@ ElMahrosa-Pi-Smart-City/
 │   │   │   │   └── Transactions.tsx
 │   │   │   ├── Profile/
 │   │   │   │   └── Profile.tsx
-│   │   │   └── Settings/
-│   │   │       └── Settings.tsx
-│   │   ├── services │   │   │   ├── apiClient.ts
+│   │   │   └── Settings.tsx
+│   │   ├── services/
+│   │   │   ├── apiClient.ts
 │   │   │   ├── blockchainService.ts
 │   │   │   └── web3Service.ts                # New service for Web3 interactions
 │   │   ├── i18n/
@@ -258,7 +258,7 @@ ElMahrosa-Pi-Smart-City/
 │   ├── audits/
 │   │   └── audit-report.md
 │   ├── pen-tests/
-│   │ └── pentest-report.md
+│   │   └── pentest-report.md
 │   ├── policies/
 │   │   └── security-policy.md
 │   ├── vulnerability-scans/
