@@ -159,7 +159,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, please reach out to:
 
-- **Your Name** - [info@elmahrosa-expo.com](mailto:info@elmahrosa-expo.com)
+- **Ayman Seif** - [info@elmahrosa-expo.com](mailto:info@elmahrosa-expo.com)
 - **GitHub**: [Elmahrosa](https://github.com/Elmahrosa)
 
 Thank you for your interest in the ElMahrosa Pi Smart City project! We hope you find it useful and engaging. ```markdown
@@ -190,4 +190,3 @@ If you encounter any issues or have questions, please check the following resour
 - [Documentation](docs/user-guide.md) for detailed guides on using the platform.
 
 We appreciate your interest in the ElMahrosa Pi Smart City project and look forward to your contributions and feedback!
-```
