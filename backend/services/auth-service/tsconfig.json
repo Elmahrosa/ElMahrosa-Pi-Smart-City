@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                          // Use the latest ECMAScript features
+    "module": "ESNext",                          // Use ESNext module system for better tree-shaking
+    "lib": ["ESNext", "DOM"],                    // Include the latest ECMAScript and DOM libraries
+    "rootDir": "./src",                          // Specify the root directory of input files
+    "outDir": "./dist",                          // Redirect output structure to the dist directory
+    "strict": true,                              // Enable all strict type-checking options
+    "noImplicitAny": true,                       // Raise error on expressions and declarations with an implied 'any' type
+    "strictNullChecks": true,                    // Enable strict null checks
+    "strictFunctionTypes": true,                 // Enable strict checking of function types
+    "strictBindCallApply": true,                 // Enable strict 'bind', 'call', and 'apply' methods
+    "strictPropertyInitialization": true,        // Ensure class properties are initialized in the constructor
+    "esModuleInterop": true,                     // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,                        // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,   // Disallow inconsistently-cased references to the same file
+    "baseUrl": "./",                             // Base directory to resolve non-relative module names
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]    // Allow importing types from a custom directory
+    },
+    "declaration": true,                         // Generate corresponding '.d.ts' files
+    "sourceMap": true,                           // Generate source maps for debugging
+    "incremental": true,                         // Enable incremental compilation for faster builds
+    "noEmitOnError": true,                       // Do not emit outputs if any type checking errors are reported
+    "resolveJsonModule": true,                   // Allow importing JSON files
+    "experimentalDecorators": true,              // Enable experimental support for decorators
+    "emitDecoratorMetadata": true                 // Emit design-type metadata for decorated declarations
+  },
+  "include": [
+    "src/**/*"                                   // Include all TypeScript files in the src directory
+  ],
+  "exclude": [
+    "node_modules",                              // Exclude node_modules directory
+    "**/*.spec.ts",                              // Exclude test files
+    "dist"                                       // Exclude the output directory
+  ]
+}
