@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                          // Specify ECMAScript target version
+    "module": "ESNext",                          // Use the latest module system
+    "lib": ["ES2022", "DOM"],                    // Include the latest ECMAScript and DOM libraries
+    "rootDir": "./src",                          // Specify the root directory of input files
+    "outDir": "./dist",                          // Redirect output structure to the dist directory
+    "strict": true,                              // Enable all strict type-checking options
+    "esModuleInterop": true,                     // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,                        // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,   // Disallow inconsistently-cased references to the same file
+    "baseUrl": "./src",                          // Base directory to resolve non-relative module names
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]    // Specify paths for module resolution
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"], // Specify type declaration files
+    "noImplicitAny": true,                       // Raise error on expressions and declarations with an implied 'any' type
+    "noUnusedLocals": true,                      // Report errors on unused locals
+    "noUnusedParameters": true,                   // Report errors on unused parameters
+    "noFallthroughCasesInSwitch": true,          // Report errors for fallthrough cases in switch statements
+    "noImplicitReturns": true,                    // Report error when not all code paths in function return a value
+    "noUncheckedIndexedAccess": true,             // Report errors on accessing properties of an array or tuple
+    "exactOptionalPropertyTypes": true,           // Ensure that optional properties are treated as potentially undefined
+    "incremental": true,                         // Enable incremental compilation for faster builds
+    "tsBuildInfoFile": "./.tsbuildinfo"          // Specify the location of the incremental build information
+  },
+  "include": [
+    "src/**/*"                                   // Include all TypeScript files in the src directory
+  ],
+  "exclude": [
+    "node_modules",                              // Exclude node_modules directory
+    "**/*.spec.ts",                              // Exclude test files
+    "**/*.test.ts"                               // Exclude test files
+  ]
+}
